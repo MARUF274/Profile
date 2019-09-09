@@ -1,0 +1,66 @@
+ /* responsive di layar mobile middle */
+ 
+ @media(min-width:321px) and (max-width: 425px) {
+     section#box-profile {
+         width: 90%;
+         min-height: 630px;
+         margin-left: 5%;
+         margin-right: 5%;
+         margin-top: 30px;
+     }
+     .box-profile .img-profile {
+         position: relative;
+         display: inline-block;
+         width: 150px;
+         height: 150px;
+         border-radius: 300px;
+         float: left;
+         top: 25px;
+         margin-left: 40px;
+     }
+     .menu-mobile {
+         top: 20px;
+         right: 10%;
+         display: inline-block;
+     }
+     nav ul {
+         display: none;
+         right: 0;
+         width: 100%;
+         text-align: center;
+         top: 43px;
+         z-index: 99;
+         background: #ffffff;
+     }
+     nav ul li {
+         float: unset;
+         margin: 0;
+         padding-top: 10px;
+         padding-bottom: 10px;
+         color: #333333;
+     }
+     .description {
+         padding-left: 0px;
+         width: 100%;
+         text-align: center;
+         margin-left: 0;
+         border: none;
+     }
+     .description .button {
+         margin-right: 10px;
+         margin-left: 10px;
+     }
+     .img-profile .photo {
+         left: 35px;
+         position: relative;
+     }
+     .information {
+         top: 75px;
+         margin-left: 25px;
+         font-size: 14px;
+     }
+     section#input-form {
+         margin-left: 5%;
+         margin-right: 5%;
+     }
+ }
